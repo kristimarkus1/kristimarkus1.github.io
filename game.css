@@ -25,7 +25,7 @@ h1 {
 /* Game Board */
 #board {
     width: 300px;  /* Smaller width */
-    height: 240px; /* Smaller height */
+    height: 300px; /* Smaller height */
     display: block;
     background-color: black;
     border: 2px solid #ff2be6;
