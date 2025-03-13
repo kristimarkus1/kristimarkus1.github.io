@@ -85,11 +85,10 @@ function updateTimer() {
       context.font = "48px courier";
       context.textAlign = "center";
       context.fillText("You Win!", board.width / 2, board.height / 2);
-      clearInterval(timerInterval);
+      clearInterval(timerInterval); 
     }
   }
 }
-
 
 function update() {
   requestAnimationFrame(update);
@@ -100,11 +99,11 @@ function update() {
     context.textAlign = "center";
     
     if (timeLeft > 0) {
-
+      
       context.fillText("Game Over!!!!", board.width / 2, board.height / 2);
     }
 
-    return;
+    return; 
   }
 
   if (paused) {
@@ -218,7 +217,6 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
-
 
 function moveShip(e) {
   if (gameOver) {
