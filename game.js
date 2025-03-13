@@ -293,4 +293,3 @@ function startGame() {
   document.addEventListener("keydown", moveShip);
   document.addEventListener("keyup", shoot);
 }
-
